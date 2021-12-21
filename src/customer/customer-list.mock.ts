@@ -7,11 +7,6 @@ export const customerListMock: Customer[] = [
     secondName: 'CustomerS1',
     contact: 6044245998,
     address: 'address 1',
-    cart: {
-      items: [  
-        {},
-      ]
-    },
   },
   {
     id: 2,
@@ -19,11 +14,6 @@ export const customerListMock: Customer[] = [
     secondName: 'CustomerS2',
     contact: 6044245999,
     address: 'address 2',
-    cart: {
-      items: [  
-        {}   
-      ]
-    },
   },
   {
     id: 3,
@@ -31,10 +21,5 @@ export const customerListMock: Customer[] = [
     secondName: 'CustomerS3',
     contact: 6044245979,
     address: 'address 3',
-    cart: {
-      items: [    
-        {} 
-      ]
-    },
   },
 ];

@@ -6,5 +6,4 @@ export interface Customer {
     secondName: string;
     contact: number;
     address: string;
-    cart?: Cart;
 }

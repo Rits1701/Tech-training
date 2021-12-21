@@ -6,7 +6,7 @@ export class CustomerService {
   productArray: any = [];
 
   constructor(private productService: ProductService){
-    this.productArray = this.productService.getFullProductList;
+    this.productArray = this.productService.getFullProductList();
   }
 
   public getFullCustomerList(): Customer[] {
